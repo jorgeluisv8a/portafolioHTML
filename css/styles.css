@@ -1,0 +1,118 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: 'Mina';
+  src: url(https://fonts.google.com/specimen/Mina);
+}
+
+h1, h2, h3 {
+  color: white;
+  text-align: center;
+  font-family: 'Mina';
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 4.8vw;
+}
+
+h2 {
+  font-size: 2.8vw;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+.twitter {
+  width: 50px;
+}
+.facebook {
+  width: 50px;
+}
+.linkedin {
+  width: 50px;
+}
+.instagram {
+  width: 50px;
+}
+
+.header {
+  position: absolute;
+  padding: 30px 0 0 30px;
+  font-family: 'Mina';
+}
+.banner{
+  background-image: url(../images/banner.png); 
+  background-color: #0C0C16;    
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: left bottom;
+  background-size: 40%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.images {
+  margin-left: auto;
+  margin-top: auto;
+  padding: 0 40px 40px 0;
+}
+
+.me {
+  margin-top: auto;
+}
+
+.twitter {
+  padding: 0 6px 0 6px;
+}
+
+.facebook {
+  padding: 0 6px 0 0;
+}
+
+@media (max-width: 768px) {
+  .banner{
+    background-image:none;
+  }
+  .twitter {
+    width: 40px;
+  }
+  .facebook {
+    width: 40px;
+  }
+  .linkedin {
+    width: 40px;
+  }
+  .instagram {
+    width: 40px;
+  }
+  h3 {
+    font-size: 3.8vw;
+  }
+  h1 {
+    font-size: 6.8vw;
+  } 
+  h2 {
+    font-size: 3.8vw;
+  }
+  .images {
+    margin-left: initial;
+    padding: 0 0px 40px 0;
+  }
+}
